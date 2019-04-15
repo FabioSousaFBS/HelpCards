@@ -1,0 +1,14 @@
+CREATE DATABASE helpcard /*!40100 COLLATE 'utf8mb4_0900_ai_ci' */
+;
+
+CREATE TABLE OrdemServicos (
+	Id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	Municipio VARCHAR(80) NULL,
+	Provedor VARCHAR(80) NULL,
+	Situacao VARCHAR(80) NULL,
+	Problema TEXT NULL,
+	Solucao TEXT NULL,
+	PRIMARY KEY (Id)
+)
+COLLATE='utf8mb4_0900_ai_ci'
+;
