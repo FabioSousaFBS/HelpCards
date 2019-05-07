@@ -218,6 +218,7 @@
     <None Include="Resources\iconfinder_edit-find_38991 %281%29.png" />
     <None Include="Resources\iconfinder_edit-find_38991 %282%29.png" />
     <None Include="Resources\iconfinder_edit-find_38991 %283%29.png" />
+    <Content Include="exe\HelpCards.exe" />
     <Content Include="supportmale.ico" />
   </ItemGroup>
   <ItemGroup />

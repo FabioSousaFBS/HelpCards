@@ -30,11 +30,11 @@ namespace HelpCards.View
 
         private void ConfiguraGrid()
         {
-            this.dgvResultado.AutoSize = true;
             this.dgvResultado.ReadOnly = true;
             this.dgvResultado.AllowUserToAddRows = false;
             this.dgvResultado.AllowUserToDeleteRows = false;
             this.dgvResultado.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            this.dgvResultado.ScrollBars = ScrollBars.Both;
         }
 
         private void btnFiltrar_Click(object sender, EventArgs e)
